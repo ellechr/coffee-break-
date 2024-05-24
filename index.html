@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cofee Break!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+ 
+ 
+ <nav class="navbar">
+    <div class="navbar-container container">
+        <ul class="navi">
+            <li><a href="#slider">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="cart.html">Cart</a></li>
+        </ul>
+        <img src="logo.png" class="logo1" alt="Logo">
+        <h1 class="logo">Coffee Break!</h1>
+    </div>
+</nav>
+
+<div id="slider">
+    <input type="radio" name="slider" id="slide1" checked>
+    <input type="radio" name="slider" id="slide2">
+    <input type="radio" name="slider" id="slide3">
+    <input type="radio" name="slider" id="slide4">
+    <div id="slides">
+       <div id="overflow">
+          <div class="inner">
+             <div class="slide slide_1">
+                <div class="slide-content">
+                  <img src="1.jpg" alt="Slide 1 Image">
+                </div>
+             </div>
+             <div class="slide slide_2">
+                <div class="slide-content">
+                  <img src="2.jpg" alt="Slide 1 Image">
+                </div>
+             </div>
+             <div class="slide slide_3">
+                <div class="slide-content">
+                  <img src="3.jpg" alt="Slide 1 Image">
+                </div>
+             </div>
+             <div class="slide slide_4">
+                <div class="slide-content">
+                  <img src="4.jpg" alt="Slide 1 Image">
+                </div>
+             </div>
+          </div>
+       </div>
+       
+    </div>
+    <div id="controls">
+       <label for="slide1"></label>
+       <label for="slide2"></label>
+       <label for="slide3"></label>
+       <label for="slide4"></label>
+    </div>
+    <div id="bullets">
+       <label for="slide1"></label>
+       <label for="slide2"></label>
+       <label for="slide3"></label>
+       <label for="slide4"></label>
+    </div>
+
+    <audio id="myAudio" controls autoplay>
+      <source src="jazz.mp3" type="audio/mpeg">
+  </audio>
+  <script>
+    var audio = document.getElementById("myAudio");
+    audio.volume = 0.5; // Set volume to 50%
+  </script>
+</div>
+
+<section id="about">
+    <h2>All About Us</h2>
+    <div class="aboutus container">
+      <div class="business">
+        <div class="img-container">
+          <img decoding="async" src="image.png" alt="error" />
+          <div class="img-content">
+            <h3>Businesss</h3>
+            <p>The coffee break was started by Boss Emily in 2022. This small business is comprised of five employees who deliver coffee to your home.</p>
+          </div>
+        </div>
+      </div>
+      <div class="beans">
+        <div class="img-container">
+          <img decoding="async" src="image (2).png" alt="error" />
+          <div class="img-content">
+            <h3>Beans</h3>
+            <p>Our coffee beans are hand-picked by our farmers in Baguio, Benguet to ensure they are delivered fresh. These are crafted with perfection and made with precision.</p>
+          </div>
+        </div>
+      </div>
+      <div class="contact">
+        <div class="img-container">
+          <img decoding="async" src="image (1).png" alt="error" />
+          <div class="img-content">
+            <h3>Contacts</h3>
+            <p>Facebook: Coffee Break MNL
+              Email: coffeeBreak@cafe.Ph
+              Contact Number: 84201
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+
+
+<section class="menu">
+  <div id="menu">
+  <h1>Menu Overview</h1>
+  <div class="scroll-container">
+      <div class="menu-item">
+          <img src="1coffee.jpg" alt="Espresso">
+          <div class="description">
+              <h2>Espresso</h2>
+              <p>Php 150.00</p>
+          </div>
+      </div>
+      <div class="menu-item">
+          <img src="2coffee.jpg" alt="Cappuccino">
+          <div class="description">
+              <h2>Cappuccino</h2>
+              <p>Php 150.00</p>
+          </div>
+      </div>
+      <div class="menu-item">
+          <img src="3coffee.jpg" alt="Latte">
+          <div class="description">
+              <h2>Latte</h2>
+              <p>Php 150.00</p>
+          </div>
+      </div>
+      <div class="menu-item">
+          <img src="4coffee.jpg" alt="Americano">
+          <div class="description">
+              <h2>Americano</h2>
+              <p>Php 200.00</p>
+          </div>
+      </div>
+      <div class="menu-item">
+          <img src="5coffee.jpg" alt="Mocha">
+          <div class="description">
+              <h2>Mocha</h2>
+              <p>Php 200.00</p>
+          </div>
+      </div>
+      <div class="menu-item">
+          <img src="6coffee.jpg" alt="Macchiato">
+          <div class="description">
+              <h2>Macchiato</h2>
+              <p>Php 200.00</p>
+          </div>
+      </div>
+  </div>
+  
+  <div class="button-container">
+    <a href="cart.html" class="navigate-button">Order Now</a>
+
+  </div>
+</div>
+</section>
+
+
+
+  
+
+</body>
+</html>
